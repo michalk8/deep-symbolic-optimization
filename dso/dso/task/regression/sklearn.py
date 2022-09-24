@@ -32,6 +32,7 @@ class DeepSymbolicRegressor(DeepSymbolicOptimizer,
 
         train_result = self.train()
         self.program_ = train_result["program"]
+        self.programs_ = train_result["programs"]
 
         return self
 
