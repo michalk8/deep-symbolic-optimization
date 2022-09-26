@@ -62,7 +62,8 @@ unprotected_ops = [
     Token(n3, "n3", arity=1, complexity=3),
     Token(n4, "n4", arity=1, complexity=3),
     Token(sigmoid, "sigmoid", arity=1, complexity=4),
-    Token(harmonic, "harmonic", arity=1, complexity=4)
+    Token(harmonic, "harmonic", arity=1, complexity=4),
+    Token(np.power, "pow", arity=2, complexity=4)
 ]
 
 
